@@ -1,0 +1,38 @@
+.logo {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    h1 {
+        font-weight: 100;
+    }
+    button {
+        border: none;
+        background: inherit;
+        color: rgb(137, 137, 137);
+        text-transform: capitalize;
+        padding: 20px;
+    }
+}
+.topMenu {
+    font-family: Merriweather;
+    font-size: 20px;;
+    ul {
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        margin: 10px auto;
+        li {
+            display: inline-block;
+            
+            text-transform: capitalize;
+            padding: 10px;
+            a {
+                color: #000;
+            }
+        }
+    }
+}
