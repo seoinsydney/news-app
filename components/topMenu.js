@@ -8,27 +8,27 @@ export default function TopMenu () {
 
     const handlePrint = () => {
         window.print();
-        console.log('print')
+        // console.log('print')
     };
 
     return (
         <>
         <div className={styles.logo}>
-            <h1>Australia Newspaper</h1>
+            <a href="/">
+                <h1>Aussie News</h1>
+            </a>
             <button onClick={handlePrint}>
             <p>Print Today’s ({formattedDate}) News</p>
             </button>
         </div>
         <div className={styles.topMenu}>
             <ul>
-                <li><a href="/">home</a></li>
-                <li><a href="/">national</a></li>
-                <li><a href="/">world</a></li>
-                <li><a href="/">politics</a></li>
-                <li><a href="/">Tech</a></li>
-                <li><a href="/">Travel</a></li>
-                <li><a href="/">Sports</a></li>
-                <li><a href="/">Latest</a></li>
+                <li><a href="/national">national</a></li>
+                <li><a href="/world">world</a></li>
+                <li><a href="/politics">politics</a></li>
+                <li><a href="/tech">Tech</a></li>
+                <li><a href="/sports">Sports</a></li>
+                <li><a href="/podcasts">Podcasts</a></li>
             </ul>
         </div>
         </>
