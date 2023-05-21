@@ -24,21 +24,11 @@ export default function SideWeather() {
             {
                 weather.length === 1 ?
                 <>
-                <h3>{weather[0].description}</h3>
-                <h3>{weather[0].icon}</h3>
-                <h3>{weather[0].main}</h3>
-                <h3>{weather[0].id}</h3>
+                <p>Sydney: {weather[0].main}</p>
                 </>
                 :
-                <>error</>
+                <></>
             }
-            {/* <a href={weather.url}> */}
-            {/* <img src={weather.icon} alt={tech.title} width="300" height="150" /> */}
-            <h3>{weather.description}</h3>
-            <h3>{weather.title}</h3>
-            <h3>{weather.title}</h3>
-            <h3>{weather.title}</h3>
-            {/* </a> */}
         </Grid>
     </Grid>
   )

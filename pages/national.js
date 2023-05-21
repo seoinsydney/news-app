@@ -17,11 +17,8 @@ export default function NationalPage() {
         <TopMenu />
         <Headline />
         <Grid container spacing={2} className={styles.newsLayout}>
-          <Grid item xs={12} sm={8} md={9} lg={9} >
+          <Grid item xs={12} >
             <News sliceNumber={100} keyword='national' column={4} />
-          </Grid>
-          <Grid item xs={12} sm={4} md={3} lg={3} >
-            <SideWeather />
           </Grid>
         </Grid>
       </main>

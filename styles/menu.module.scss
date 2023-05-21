@@ -27,12 +27,19 @@
         margin: 10px auto;
         li {
             display: inline-block;
-            
             text-transform: capitalize;
             padding: 10px;
             a {
                 color: #000;
             }
+        }
+    }
+}
+/* Mobile */
+@media (max-width: 700px) {
+    .topMenu{
+        ul {
+            font-size: 14px;
         }
     }
 }

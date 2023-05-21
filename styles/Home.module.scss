@@ -2,6 +2,12 @@
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  h6 {
+    color: #DB0000;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+  }
 }
 
 .newsLayout {
@@ -23,14 +29,4 @@
     color: inherit;
     text-decoration: underline;
   }
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  
 }

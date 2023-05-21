@@ -23,9 +23,9 @@ export default function TechNews({sliceNumber, keyword, column}) {
     <Grid container>
         {
           techNews.map((tech) => (
-            <Grid item xs={12} sm={12} md={6} lg={column} 
+            <Grid item xs={12} sm={6} md={6} lg={column} 
             key={tech.title} 
-            className={styles.tech}>
+            className={styles.newsList}>
               <a href={tech.url}>
                 <img src={tech.urlToImage} alt={tech.title} width="400" height="200" />
                 <h3>{tech.title}</h3>

@@ -8,7 +8,6 @@ export default function TopMenu () {
 
     const handlePrint = () => {
         window.print();
-        // console.log('print')
     };
 
     return (
@@ -18,9 +17,12 @@ export default function TopMenu () {
                 <h1>Aussie News</h1>
             </a>
             <button onClick={handlePrint}>
-            <p>Print Today’s ({formattedDate}) News</p>
+            <p>Print Today’s ({formattedDate}) news 
+            <br />
+            </p>
             </button>
         </div>
+        
         <div className={styles.topMenu}>
             <ul>
                 <li><a href="/national">national</a></li>
@@ -28,7 +30,6 @@ export default function TopMenu () {
                 <li><a href="/politics">politics</a></li>
                 <li><a href="/tech">Tech</a></li>
                 <li><a href="/sports">Sports</a></li>
-                <li><a href="/podcasts">Podcasts</a></li>
             </ul>
         </div>
         </>
