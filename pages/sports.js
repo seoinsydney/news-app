@@ -6,8 +6,6 @@ import News from '/components/news';
 import Headline from '/components/headline';
 import { Grid } from '@mui/material';
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function SportsPage() {
   return (
     <>

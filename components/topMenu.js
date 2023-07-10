@@ -13,13 +13,9 @@ export default function TopMenu () {
     return (
         <>
         <div className={styles.logo}>
-            <a href="/">
-                <h1>Aussie News</h1>
-            </a>
+            <h1><a href="/">Newspaper</a></h1>
             <button onClick={handlePrint}>
-            <p>Print Today’s ({formattedDate}) news 
-            <br />
-            </p>
+            <p>Print Today’s ({formattedDate}) news</p>
             </button>
         </div>
         

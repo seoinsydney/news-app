@@ -3,7 +3,6 @@ import styles from '@/styles/Home.module.scss'
 import HeadSEO from '/components/head';
 import TopMenu from '/components/topMenu';
 import News from '/components/nationalNews';
-import SideWeather from '/components/sideWeather';
 import Headline from '/components/headline';
 import { Grid } from '@mui/material';
 
@@ -18,7 +17,7 @@ export default function NationalPage() {
         <Headline />
         <Grid container spacing={2} className={styles.newsLayout}>
           <Grid item xs={12} >
-            <News sliceNumber={100} keyword='national' column={4} />
+            <News sliceNumber={100} keyword='national' column={3} />
           </Grid>
         </Grid>
       </main>

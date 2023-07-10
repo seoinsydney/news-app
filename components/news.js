@@ -21,11 +21,11 @@ export default function NewsList({sliceNumber, keyword}) {
     <Grid container>
         {
           newsList.map((tech) => (
-            <Grid item xs={12} sm={6} md={6} lg={4} 
+            <Grid item xs={12} sm={6} md={4} lg={3} 
             key={tech.title} 
             className={styles.newsList}>
               <a href={tech.url}>
-                <img src={tech.urlToImage} alt={tech.title} width="400" height="250" />
+                <img src={tech.urlToImage} alt={tech.title} />
                 <h3>{tech.title}</h3>
               </a>
             </Grid>
